@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# Party Menu Landing Page Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A pixel-perfect React implementation of a party menu landing page based on Figma designs.
 
-## Available Scripts
+## 🚀 Quick Start
 
-In the project directory, you can run:
+```bash
+# Install dependencies
+npm install
 
-### `npm start`
+# Start development server
+npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Open http://localhost:3000 in your browser
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📱 Features
 
-### `npm test`
+- **Figma-to-Code**: Pixel-perfect implementation of Figma design
+- **Interactive UI**: Category selection, search bar, and interactive buttons
+- **Responsive Design**: Mobile-first approach with flexible layouts
+- **Modern React**: Functional components with hooks
+- **Clean CSS**: Organized styling with animations and hover effects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Component Architecture
 
-### `npm run build`
+### SearchBar Component
+- Back arrow navigation
+- Search input with placeholder
+- Magnifying glass icon
+- Reusable with customizable placeholder
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### CategoryButtons Component
+- Dynamic category rendering
+- Active state management
+- Click handlers for category selection
+- Item count display
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### FilterSwitches Component
+- Veg/Non-veg filter toggles
+- Selection status display
+- Interactive switch controls
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### MenuHeader Component
+- Section title display
+- Dropdown icon for expandable sections
+- Customizable title prop
 
-### `npm run eject`
+### MenuItem Component
+- Individual food item display
+- Veg/Non-veg indicators
+- Add button with callback
+- Image with hover effects
+- Ingredient information
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### BottomSection Component
+- Total dish counter
+- Continue button with callback
+- Fixed positioning
+- Dynamic total count
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Technical Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React.js** - Component-based UI library with hooks
+- **Component Architecture** - Modular, reusable components
+- **CSS3** - Component-scoped styling with flexbox and animations
+- **SVG Icons** - Scalable vector graphics
+- **Unsplash Images** - High-quality food images
+- **Modern JavaScript** - ES6+ features and destructuring
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📋 Code Structure
 
-## Learn More
+```
+src/
+├── components/
+│   ├── SearchBar/
+│   │   ├── SearchBar.js
+│   │   ├── SearchBar.css
+│   │   └── index.js
+│   ├── CategoryButtons/
+│   │   ├── CategoryButtons.js
+│   │   ├── CategoryButtons.css
+│   │   └── index.js
+│   ├── FilterSwitches/
+│   │   ├── FilterSwitches.js
+│   │   ├── FilterSwitches.css
+│   │   └── index.js
+│   ├── MenuHeader/
+│   │   ├── MenuHeader.js
+│   │   ├── MenuHeader.css
+│   │   └── index.js
+│   ├── MenuItem/
+│   │   ├── MenuItem.js
+│   │   ├── MenuItem.css
+│   │   └── index.js
+│   └── BottomSection/
+│       ├── BottomSection.js
+│       ├── BottomSection.css
+│       └── index.js
+├── App.js          # Main application component
+├── LandingPage.js  # Landing page container
+├── LandingPage.css # Main layout styling
+└── index.js        # Application entry point
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Design Implementation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Colors**: Exact color codes from Figma (#ff8800, #1C1C1C, etc.)
+- **Typography**: Open Sans font family
+- **Spacing**: Precise padding and margins
+- **Layout**: Flexbox-based responsive design
 
-### Code Splitting
+## 📖 Documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+See `CODE_EXPLANATION.md` for detailed technical documentation and code walkthrough.
 
-### Analyzing the Bundle Size
+## 🔧 Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App
 
-### Making a Progressive Web App
+## 📱 Browser Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Created for interview demonstration - showcasing React.js skills and Figma-to-code conversion abilities.**

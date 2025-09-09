@@ -1,0 +1,171 @@
+.ingredients-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ingredients-container {
+  position: relative;
+  width: 360px;
+  height: 815px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+  position: absolute;
+  left: 4.72%;
+  top: 5.89%;
+  width: 24px;
+  height: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.page-title {
+  position: absolute;
+  left: 12.78%;
+  right: 55.83%;
+  top: 5.28%;
+  bottom: 92.02%;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+  margin: 0;
+}
+
+.dish-image {
+  position: absolute;
+  left: 54.17%;
+  right: 0%;
+  top: 11.9%;
+  bottom: 63.8%;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+}
+
+.dish-name {
+  position: absolute;
+  left: 5.56%;
+  right: 39.44%;
+  top: 15.09%;
+  bottom: 81.84%;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #242424;
+  margin: 0;
+}
+
+.dish-description {
+  position: absolute;
+  left: 5.56%;
+  right: 40.83%;
+  top: 19.75%;
+  bottom: 75.09%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #2E2E2E;
+  margin: 0;
+}
+
+.ingredients-title {
+  position: absolute;
+  left: 5.56%;
+  right: 68.89%;
+  top: 31.9%;
+  bottom: 65.4%;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1C1C1C;
+  margin: 0;
+}
+
+.serving-info {
+  position: absolute;
+  left: 5.56%;
+  right: 75%;
+  top: 35.34%;
+  bottom: 62.7%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1C1C1C;
+  margin: 0;
+}
+
+.divider {
+  position: absolute;
+  left: 5.56%;
+  right: 5.56%;
+  top: 39.26%;
+  bottom: 60.74%;
+  border: 1px solid #CECECE;
+  transform: rotate(180deg);
+}
+
+.ingredients-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  position: absolute;
+  width: 320px;
+  height: 100px;
+  left: 20px;
+  top: 342px;
+}
+
+.ingredient-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 320px;
+  height: 16px;
+  justify-content: space-between;
+}
+
+.ingredient-name {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1C1C1C;
+}
+
+.ingredient-quantity {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #1C1C1C;
+}
